@@ -1,0 +1,119 @@
+@font-face{
+    font-family:'retrotech';
+    src:url(fonts/RETROTECH.ttf)
+}
+
+#celda-vacia{
+    border: none;
+    background-color: rgb(62, 59, 59);
+    margin: 0;
+    
+}
+
+body{
+    text-align:center;
+    margin:auto;
+}
+
+.bola{
+    background-color:white;
+    width:15px;
+    height:15px;
+    border-radius:50%;
+}
+
+
+.fondo{
+    background-image: url(img/fondoretro.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+.main-box{
+    border: 5px  groove RGB(237, 175, 5);
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom:40px;
+    padding: 0px 0px 0px;
+    width: 800px;
+    height:500px;
+    background-color: rgb(62, 59, 59)
+
+}
+
+.marcador{
+    border: 5px solid black;
+    border-bottom-color: White;
+    background-color: black;;
+}
+
+.tabla{
+    margin: auto;
+    empty-cells: hide; 
+    background-color: gray;
+    text-align:center;
+    
+}
+
+
+/* No he conseguido meter 8 filas y que las celdas sean de 40 x 40  
+    y además se ajusten a los 800px de la caja principal :(
+    */
+
+td{
+    width: 100px;
+    height: 20px;
+    border: 1px outset gray;
+    border-radius:2px;
+    empty-cells: hide; 
+}
+
+
+
+.fila-1 td{
+    background: rgb(62, 59, 59);
+}
+
+.fila-2 td{
+    background: rgb(239, 5, 5);
+}
+
+.fila-3 td{
+    background: rgb(239, 216, 5);
+}
+
+.fila-4 td{
+    background: blue;
+}
+
+.fila-5 td{
+    background: violet;
+}
+
+.fila-6 td{
+    background: green;
+}
+
+
+
+.subtitulo-1{
+    font-family:retrotech;
+    color: red;
+    font-size: 40px;
+}
+
+.subtitulo-2{
+    font-family:retrotech;
+    color:white;
+    font-size: 32px;
+    
+}
+
+.titular{
+    font-family: 'retrotech';
+    font-size: 52px;
+    color:white;
+}
